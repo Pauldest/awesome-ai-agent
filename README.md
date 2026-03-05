@@ -113,6 +113,20 @@
 - **系统思维**：设计可靠、可扩展的 Agent 系统
 - **持续学习**：这个领域每周都有重大突破，保持学习节奏至关重要
 
+### Agent Infra 在技术金字塔中的位置
+
+> AI Agent Infrastructure 是当前增长最快的技术层——它在构建 AI 时代的“新操作系统”。
+
+```
+          AI Compiler          ← CUDA / MLIR       极少岗位，最难替代
+        AI Infrastructure      ← Training / Serving 高薪稀缺
+      🔥 Agent Infrastructure   ← Runtime / Tools    最大增长点
+       Distributed Systems     ← Storage / Queue    成熟常青
+          Application          ← Web / API / CRUD   岗位最多，替代风险最高
+```
+
+越往上：越难被 AI 替代 · 长期价值越高 · 但门槛也越高。详细分析见 → [职业路线图](paths/career-roadmap-2025-2030.md)
+
 ---
 
 # 🗺️ 学习路径 (Learning Paths)
@@ -124,6 +138,7 @@
 | [从零构建 Coding Agent](paths/coding-agent-12-weeks.md) | 有编程基础的开发者 | 12 周 | 类 OpenCode 的完整 Coding Agent |
 | [AI Agent 系统工程师转型](paths/agent-systems-engineer.md) | 后端工程师 | 4-6 个月 | 生产级 Agent 系统设计能力 |
 | [大厂 Agent 工程师进阶](paths/big-tech-agent-interview.md) | 有 Agent 项目经验的工程师 | 8-12 周 | 系统设计 + 模型原理 + 评估 + 安全 |
+| [AI 时代职业路线图](paths/career-roadmap-2025-2030.md) | 规划长期方向的工程师 | 阅读 10 分钟 | 技术金字塔 + 升级路径 + 五年展望 |
 
 📌 *[→ 提交你的学习路径](./CONTRIBUTING.md)（欢迎前端工程师路径、数据工程师路径、产品经理路径等！）*
 
