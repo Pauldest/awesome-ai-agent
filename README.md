@@ -123,6 +123,7 @@
 |:---|:---|:---|:---|
 | [从零构建 Coding Agent](paths/coding-agent-12-weeks.md) | 有编程基础的开发者 | 12 周 | 类 OpenCode 的完整 Coding Agent |
 | [AI Agent 系统工程师转型](paths/agent-systems-engineer.md) | 后端工程师 | 4-6 个月 | 生产级 Agent 系统设计能力 |
+| [大厂 Agent 工程师进阶](paths/big-tech-agent-interview.md) | 有 Agent 项目经验的工程师 | 8-12 周 | 系统设计 + 模型原理 + 评估 + 安全 |
 
 📌 *[→ 提交你的学习路径](./CONTRIBUTING.md)（欢迎前端工程师路径、数据工程师路径、产品经理路径等！）*
 
@@ -147,7 +148,9 @@
 | 🟡 | [HuggingGPT: Solving AI Tasks with ChatGPT and Friends](https://arxiv.org/abs/2303.17580) | 用 LLM 调度多种 AI 模型协作 | 2023 |
 | 🟡 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | Agent 通过自我反思改进行为 | 2023 |
 | 🟡 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | 斯坦福"西部世界"小镇，多智能体社会模拟 | 2023 |
+| 🔴 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Transformer 原始论文，LLM 的基石 | 2017 |
 | 🔴 | [Voyager: An Open-Ended Embodied Agent with LLMs](https://arxiv.org/abs/2305.16291) | Minecraft 中持续学习的 Agent，终身学习典范 | 2023 |
+| 🔴 | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) | 低成本微调大模型的突破性工作 | 2021 |
 
 📌 *[→ 提交更多论文推荐](./CONTRIBUTING.md)*
 
@@ -275,6 +278,17 @@
 | [Temporal](https://github.com/temporalio/temporal) | 工作流编排引擎，Agent 调度的理想选择 |
 | [Docker](https://www.docker.com/) | 容器化部署与 Agent 沙箱隔离 |
 | [LiteLLM](https://github.com/BerriAI/litellm) | 统一 LLM API 网关，支持 100+ 模型 |
+| [vLLM](https://github.com/vllm-project/vllm) | 高吞吐 LLM 推理引擎 |
+
+### 可观测性 & 评估
+
+> Agent 最大的工程痛点：难调试。这些工具让你看得见 Agent 内部在做什么。
+
+| 工具 | 用途 |
+|:---|:---|
+| [LangFuse](https://github.com/langfuse/langfuse) | 开源 LLM 可观测平台，Trace + 成本追踪 |
+| [Arize Phoenix](https://github.com/Arize-ai/phoenix) | LLM 应用可观测性和评估 |
+| [Weights & Biases](https://wandb.ai/) | 实验追踪和模型评估 |
 
 📌 *[→ 提交更多工具推荐](./CONTRIBUTING.md)*
 
