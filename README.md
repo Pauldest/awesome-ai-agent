@@ -219,6 +219,7 @@
 |:---:|:---|:---|
 | 🟢 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 最早引爆全网的自主 Agent 标杆 |
 | 🟢 | [MetaGPT](https://github.com/geekan/MetaGPT) | 模拟软件公司的多角色协作 Agent |
+| 🟡 | [OpenCode](https://github.com/opencode-ai/opencode) | Go 实现的终端 Coding Agent，模型无关，支持 TUI |
 | 🟡 | [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | 自然语言操控本地计算机 |
 | 🟡 | [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | 自主深度研究与报告生成 |
 | 🔴 | [SWE-agent](https://github.com/princeton-nlp/SWE-agent) | 自动修复 GitHub Issue |
@@ -241,14 +242,39 @@
 
 ## 🔧 工具链 (Toolchains)
 
-> Agent 的"装备库"。
+### Agent 专属工具
+
+> 为 Agent 构建专门设计的组件。
 
 | 工具 | 用途 |
 |:---|:---|
 | [Mem0](https://github.com/mem0ai/mem0) | Agent 增强记忆层，跨会话记忆管理 |
-| [ChromaDB](https://github.com/chroma-core/chroma) | 轻量级向量数据库 |
-| [Milvus](https://github.com/milvus-io/milvus) | 生产级分布式向量数据库 |
 | [Composio](https://github.com/ComposioHQ/composio) | 150+ 工具集成平台 |
+| [Guardrails AI](https://github.com/guardrails-ai/guardrails) | LLM 输出验证与安全护栏 |
+| [LangSmith](https://smith.langchain.com/) | Agent 调试、追踪与评估平台 |
+
+### 向量数据库
+
+> RAG 的核心基础设施。
+
+| 数据库 | 定位 |
+|:---|:---|
+| [FAISS](https://github.com/facebookresearch/faiss) | Meta 开源，适合学习和原型开发 |
+| [ChromaDB](https://github.com/chroma-core/chroma) | 轻量级，开发者友好 |
+| [Milvus](https://github.com/milvus-io/milvus) | 生产级分布式向量数据库 |
+| [Pinecone](https://www.pinecone.io/) | 云托管向量数据库，开箱即用 |
+
+### 基础设施
+
+> Agent 系统的后端骨架。
+
+| 工具 | 用途 |
+|:---|:---|
+| [FastAPI](https://github.com/tiangolo/fastapi) | 高性能 Python API 框架 |
+| [Redis](https://github.com/redis/redis) | 缓存、消息队列、Rate Limiting |
+| [Temporal](https://github.com/temporalio/temporal) | 工作流编排引擎，Agent 调度的理想选择 |
+| [Docker](https://www.docker.com/) | 容器化部署与 Agent 沙箱隔离 |
+| [LiteLLM](https://github.com/BerriAI/litellm) | 统一 LLM API 网关，支持 100+ 模型 |
 
 📌 *[→ 提交更多工具推荐](./CONTRIBUTING.md)*
 
